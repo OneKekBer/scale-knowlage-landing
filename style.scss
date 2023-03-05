@@ -1,0 +1,240 @@
+.btn{
+    border-radius: 32px
+}
+input{
+    border: none;
+}
+section{
+    margin-bottom: 50px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+
+.hero{
+    h1{
+        font-size: 140px;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+    }
+    &__imgs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        :first-child{
+            height: 300px;
+        }
+    }
+    &__img{
+        margin: 10px;
+        
+    }
+    &__disc{
+        // margin-left: 120px;
+    }
+    
+}
+.growing{
+    .container{
+        background-color: black;
+        padding: 150px;
+    }
+    &__text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            color:white
+        }
+        p{
+            color:grey
+        }
+    }
+}
+
+.answ{
+    *{
+        padding: 20px;
+    }
+    &__main{
+        justify-self: center;
+        align-self: center;
+    }
+    &__text{
+        background: #FAF9F7;
+    }
+}
+
+
+.pricing{
+    .container{
+        background: #FBF19B;
+        padding: 300px;
+        
+        
+    }
+    &__text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            color:black
+        }
+        p{
+            color:black;
+        }
+    }
+}
+
+.tears{
+    .container{
+        background: #D4F2F9;
+        padding: 150px;
+        
+        
+    }
+    &__text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            color:black
+        }
+        p{
+            color:grey;
+        }
+    }
+}
+
+.team{
+    .container{
+        background-color: black;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: column;
+        padding: 200px 50px 100px 50px;
+    }
+    &__text{
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        img{
+            position: relative;
+            top: 40px;  
+            
+            width: 60px;
+            height: 60px;
+        }
+
+        h1{
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 64px;
+            color:white
+        }
+    }
+    &__cards{
+        .card{
+            padding: 70px 30px 70px 30px;
+            
+            *{
+                margin-bottom: 30px;
+            }
+        }
+        .card:hover{
+            filter:brightness(80%);
+            transition: all 0.5s ease-in-out;
+        }
+        .card-1{
+                background: #F4D2DC;
+                border-radius: 12px;
+        }
+        .card-2{
+            background: #FBF19B;
+            border-radius: 12px;
+        }
+        .card-3{
+            background: #DBFAA8;
+            border-radius: 12px;
+        }
+        
+    }
+}
+
+.form{
+    .container{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        position: relative;
+        bottom: 0;
+        z-index: -10;
+    }
+    &__block{
+        z-index: 1000;
+
+        background: #FBF19B;
+        border-radius: 24px;
+        padding: 100px;
+        width: 70%;
+        margin-bottom: 70px;
+        h3{
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 53px;
+        }
+        *{
+            margin-bottom: 20px
+        }
+        
+    }
+    .input{
+        
+
+        border-bottom:2px solid black ;
+        color:black;
+        padding: 10px;
+        width: 50%;
+        background-color: transparent;
+        margin: 10px 0 10px 0;
+    }
+    .form-check-input{
+        border: 2px solid black;
+        background-color: transparent;
+    }
+}
+
+.footer{
+    .container{
+        background: #DBFAA8;
+        padding: 30px;
+    }
+    &__soc{
+        border-bottom: 2px solid black;
+        width: 100%;
+        padding-bottom: 10px;
+
+        display: flex;
+        justify-content: end;
+    }
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__item{
+        margin-right: 20px;
+    }
+}
