@@ -121,7 +121,7 @@ h2{
         // justify-content: center;
         // align-items: center;
         // flex-direction: column;
-        padding: 200px 50px 100px 50px;
+        padding: 200px 50px 0 50px;
     }
     &__text{
         margin-bottom: 100px;
@@ -179,12 +179,15 @@ h2{
         justify-content: center;
     }
     img{
+        z-index: 1;
         position: relative;
-        bottom: 0;
-        z-index: -10;
+        top:200px;
+        left:400px;
     }
     &__block{
-        z-index: 1000;
+        position: relative;
+        
+        z-index: 30;
 
         background: #FBF19B;
         border-radius: 24px;
