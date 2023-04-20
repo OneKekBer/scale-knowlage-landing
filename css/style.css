@@ -5,6 +5,7 @@ input {
   border: none; }
 
 section {
+  margin-top: 20px;
   margin-bottom: 50px; }
 
 h2 {
@@ -17,9 +18,9 @@ h2 {
 .hero__imgs {
   display: flex;
   justify-content: center;
-  align-items: center; }
-  .hero__imgs :first-child {
-    height: 300px; }
+  align-items: center;
+  max-width: 90%;
+  max-height: 80%; }
 .hero__img {
   margin: 10px; }
 
@@ -36,6 +37,8 @@ h2 {
   .growing__text p {
     color: grey; }
 
+.answ img {
+  max-width: 90%; }
 .answ * {
   padding: 20px; }
 .answ__main {
@@ -164,5 +167,11 @@ h2 {
 
   .pricing .container {
     padding: 100px; } }
+@media (max-width: 790px) {
+  .hero h1 {
+    font-size: 60px; }
+  .hero__imgs {
+    align-items: center;
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
